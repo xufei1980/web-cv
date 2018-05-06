@@ -11,14 +11,19 @@
     height: 60%;
 }
 .item-3_slide1{
+    position: relative;
     background-color: #ff6666;
     font-size: 14px;
     text-align: left;
-   width: 100%;
+    width: 100%;
     height: 100%;
 
 }
 .item-3_slide1 p{
+    display: block;
+    top:0px;
+    bottom: 0px;
+    overflow: auto;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
